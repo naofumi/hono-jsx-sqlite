@@ -1,0 +1,18 @@
+{
+  "name": "hono-jsx-sqlite",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.2",
+    "@hono/zod-validator": "^0.4.1",
+    "better-sqlite3": "^11.5.0",
+    "hono": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
